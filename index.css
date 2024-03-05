@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #a7ade7;
+}
+
+.bar {
+    height: 1px;
+    background-color: #6e5188;
+    margin: 20px 0;
+}
+
+.content {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fcfcfc;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #a7ade7;
+}
+
+.main {
+    flex: 3;
+    padding: 20px;
+}
+
+.anchors {
+    flex: 1;
+    padding: 20px;
+    background-color: #a7ade7;
+}
+
+.footer {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para links */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    color: #666;
+}
